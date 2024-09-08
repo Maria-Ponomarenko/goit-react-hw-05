@@ -1,0 +1,16 @@
+.movieWrapper {
+  display: flex;
+  gap: 10px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.716);
+}
+
+.imageBox {
+  width: 300px;
+  height: 450px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.movieWrapper p {
+  margin-bottom: 20px;
+}

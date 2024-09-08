@@ -29,7 +29,6 @@ export default function MovieCast() {
 
   return (
     <div>
-      <h1>Cast</h1>
       {loading && <Loader />}
       {error && <ErrorMessage />}
       {casts && <CastList casts={casts} />}

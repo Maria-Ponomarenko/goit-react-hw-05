@@ -24,6 +24,7 @@ export default function HomePage() {
     }
     fetchMovies();
   }, []);
+
   return (
     <div>
       <h1>Trending today</h1>

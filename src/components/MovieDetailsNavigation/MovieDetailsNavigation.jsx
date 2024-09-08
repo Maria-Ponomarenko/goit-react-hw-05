@@ -8,9 +8,9 @@ export default function MovieDetailsNavigation() {
   }
 
   return (
-    <div>
-      <p>Additional information</p>
-      <ul>
+    <div className={css.wrapper}>
+      <p className={css.text}>Additional information</p>
+      <ul className={css.list}>
         <li>
           <NavLink to="cast" className={createNavLinkClass}>
             Cast

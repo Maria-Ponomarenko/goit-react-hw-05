@@ -16,7 +16,7 @@ const MovieReviews = lazy(() => import("../MovieReviews/MovieReviews"));
 
 function App() {
   return (
-    <div>
+    <div className={css.container}>
       <Navigation />
 
       <Suspense fallback={null}>

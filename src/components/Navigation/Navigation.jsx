@@ -8,8 +8,8 @@ export default function Navigation() {
   }
 
   return (
-    <header>
-      <ul>
+    <header className={css.header}>
+      <ul className={css.list}>
         <li>
           <NavLink to="/" className={createNavLinkClass}>
             Home

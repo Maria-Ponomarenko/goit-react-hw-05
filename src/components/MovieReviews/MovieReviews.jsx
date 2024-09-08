@@ -30,7 +30,6 @@ export default function MovieReviews() {
 
   return (
     <div>
-      <h1>Reviews</h1>
       {loading && <Loader />}
       {error && <ErrorMessage />}
       {reviews && <ReviewsList reviews={reviews} />}
